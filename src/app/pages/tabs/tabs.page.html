@@ -1,0 +1,36 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>tabs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tabs</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="cart-sharp"></ion-icon>
+      <ion-label>Loja</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="search">
+      <ion-icon name="search-outline"></ion-icon>
+      <ion-label>pesquisa</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="wallet">
+      <ion-icon name="paw-sharp"></ion-icon>
+      <ion-label>Clube</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="account">
+      <ion-icon name="person-circle-sharp"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
